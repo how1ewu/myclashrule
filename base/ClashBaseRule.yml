@@ -9,6 +9,14 @@ log-level: info
 dns:
   enabled: true
   ipv6: true
+  prefer-h3: true
+  use-hosts: true
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 8.8.8.8
+    - tls://223.5.5.5:853
+    - https://223.5.5.5/dns-query
   nameserver:
     - 223.5.5.5 # 阿里DNS
     - 180.76.76.76 # 百度DNS
@@ -16,8 +24,6 @@ dns:
     - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
     - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
     - 114.114.114.114 # 114DNS
-    - 121.251.251.250
-    - 121.251.251.251
     - 8.8.8.8 # 谷歌DNS
     - 1.1.1.1 # Cloudflare DNS
     - https://dns.rubyfish.cn/dns-query
@@ -43,3 +49,14 @@ dns:
     - 2001:4860:4860::8888 # 谷歌DNSV6
     - 2606:4700:4700::1111 # CFDNSV6
     - 2620:0:ccc::2 # openDNSV6
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+    domain:
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
