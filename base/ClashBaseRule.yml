@@ -26,6 +26,8 @@ dns:
     - 114.114.114.114 # 114DNS
     - 8.8.8.8 # 谷歌DNS
     - 1.1.1.1 # Cloudflare DNS
+    - 121.251.251.250
+    - 121.251.251.251
     - https://dns.rubyfish.cn/dns-query
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
