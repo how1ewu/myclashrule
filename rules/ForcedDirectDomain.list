@@ -1,5 +1,3 @@
-# edu.cn
-DOMAIN-SUFFIX,edu.cn
 # WIN重定向网页
 URL-REGEX,^https?:\/\/(www\.)?msftconnecttest\.com\/redirect
 DOMAIN-SUFFIX,msftconnecttest.com
@@ -14,12 +12,20 @@ DOMAIN-KEYWORD,tailscale
 DOMAIN-SUFFIX,ddnsto.com
 DOMAIN-SUFFIX,yuque.com
 
+# 某些机场订阅地址
+DOMAIN-SUFFIX,web.coo.wiki
+DOMAIN-SUFFIX,sub.niceduck.cloud
+DOMAIN-SUFFIX,サブスクライブ.スチーム.コム
+DOMAIN-SUFFIX,xn--eckvarq8ld5k.xn--zckq7gxe.xn--tckwe
+DOMAIN-SUFFIX,acl.syyn.pw
+
 # PTDownload
 DOMAIN-SUFFIX,pttime.org
 DOMAIN-SUFFIX,hitpt.com
 DOMAIN-SUFFIX,tjupt.org
 PROCESS-NAME,qbittorrent
 PROCESS-NAME,transmission
+
 # IPV6Test
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,ipv6-test.ch
@@ -39,8 +45,3 @@ DOMAIN-KEYWORD,IPV6-Test
 DOMAIN-KEYWORD,IPV6Test
 DOMAIN-KEYWORD,Test-IPV6
 DOMAIN-KEYWORD,TestIPV6
-# 某些机场订阅地址
-DOMAIN-SUFFIX,sub.niceduck.cloud
-DOMAIN-SUFFIX,サブスクライブ.スチーム.コム
-DOMAIN-SUFFIX,xn--eckvarq8ld5k.xn--zckq7gxe.xn--tckwe
-DOMAIN-SUFFIX,acl.syyn.pw
