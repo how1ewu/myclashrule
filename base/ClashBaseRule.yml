@@ -17,6 +17,8 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
     - 8.8.8.8
+    - 121.251.251.250		
+    - 121.251.251.251
     - tls://223.5.5.5:853
     - https://223.5.5.5/dns-query
     - 2001:4860:4860::8888 # 谷歌DNSV6
@@ -60,3 +62,15 @@ dns:
     - 2001:4860:4860::8888 # 谷歌DNSV6
     - 2606:4700:4700::1111 # CFDNSV6
     - 2620:0:ccc::2 # openDNSV6
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+    domain:
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
+
