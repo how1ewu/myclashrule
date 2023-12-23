@@ -1,6 +1,8 @@
 IP-CIDR,121.251.251.0/24,no-resolve
 IP-CIDR,223.5.5.0/24,no-resolve
 IP-CIDR,119.29.29.0/24,no-resolve
+IP-CIDR6,2400:da00::6666/64,no-resolve
+IP-CIDR6,240c::6666/64,no-resolve
 
 
 
