@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,leigod.com
 DOMAIN-KEYWORD,tailscale
 DOMAIN-SUFFIX,ddnsto.com
 DOMAIN-SUFFIX,yuque.com
+DOMAIN-KEYWORD,greencloud
 
 # 某些机场订阅地址
 DOMAIN-SUFFIX,sub.niceduck.cloud
