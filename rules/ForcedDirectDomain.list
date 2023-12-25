@@ -13,6 +13,8 @@ DOMAIN-KEYWORD,tailscale
 DOMAIN-SUFFIX,ddnsto.com
 DOMAIN-SUFFIX,yuque.com
 DOMAIN-KEYWORD,greencloud
+DOMAIN-SUFFIX,greencloudvps.com
+
 
 # 某些机场订阅地址
 DOMAIN-SUFFIX,sub.niceduck.cloud
