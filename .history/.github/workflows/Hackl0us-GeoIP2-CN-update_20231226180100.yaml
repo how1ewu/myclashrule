@@ -28,20 +28,16 @@ jobs:
         sed -i '/^[0-9.]\+\/[0-9]\+$/!d' GeoIP2-CN.txt
         sed -i 's/^/IP-CIDR,/' GeoIP2-CN.txt
         sed -i 's/$/,no-resolve/' GeoIP2-CN.txt
+        mkdir -p rules
         mv GeoIP2-CN.txt rules/GeoIP2-CN.list
-        rm -f GeoIP2-CN.txt
     - name: Process IPs and save to ./rules/cloudflare.list
       run: |
-        wget https://www.cloudflare.com/ips-v4 -O cfv4.txt
-        sed -i '/^[0-9.]\+\/[0-9]\+$/!d' cfv4.txt
-        sed -i 's/^/IP-CIDR,/' cfv4.txt
-        sed -i 's/$/,no-resolve/' cfv4.txt
-        wget https://www.cloudflare.com/ips-v6 -O cfv6.txt
-        sed -i '/^[0-9a-fA-F:]\+\/[0-9]\+$/!d' cfv6.txt
-        sed -i 's/^/IP-CIDR6,/' cfv6.txt
-        sed -i 's/$/,no-resolve/' cfv6.txt
-        cat cfv4.txt cfv6.txt > rules/cloudflare.list
-        rm -f cfv4.txt cfv6.txt
+        wget https://www.cloudflare-cn.com/ips-v4 -O GeoIP2-CN.txt
+        sed -i '/^[0-9.]\+\/[0-9]\+$/!d' GeoIP2-CN.txt
+        sed -i 's/^/IP-CIDR,/' GeoIP2-CN.txt
+        sed -i 's/$/,no-resolve/' GeoIP2-CN.txt
+        mkdir -p rules
+        mv GeoIP2-CN.txt rules/GeoIP2-CN.list
       
     - name: Add changes to the repository
       run: |
