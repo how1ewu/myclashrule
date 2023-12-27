@@ -34,6 +34,8 @@ DOMAIN-SUFFIX,microsoftpartnersolutions.com
 DOMAIN-SUFFIX,msunlimitedcloudsummit.com
 DOMAIN-SUFFIX,renovacionoffice.com
 DOMAIN-SUFFIX,sprinklesapp.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+
 # NAME: Claude
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
