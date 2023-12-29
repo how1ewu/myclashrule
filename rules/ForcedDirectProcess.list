@@ -1,0 +1,6 @@
+PROCESS-NAME,zerotier,DIRECT
+PROCESS-NAME,zerotier-one,DIRECT
+PROCESS-NAME,zerotier-cli,DIRECT
+PROCESS-NAME,tailscale,DIRECT
+
+
