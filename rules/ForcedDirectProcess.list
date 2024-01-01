@@ -3,4 +3,4 @@ PROCESS-NAME,zerotier-one,DIRECT
 PROCESS-NAME,zerotier-cli,DIRECT
 PROCESS-NAME,tailscale,DIRECT
 PROCESS-NAME,argotunnel,DIRECT
-
+PROCESS-NAME,cloudflared,DIRECT
