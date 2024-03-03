@@ -1,0 +1,12 @@
+# github gerop
+DOMAIN-KEYWORD,ghcr1production
+DOMAIN-SUFFIX,ghcr1production.blob.core.windows.net
+DOMAIN-SUFFIX,repo.anaconda.com
+
+# v2ex
+DOMAIN-KEYWORD,v2ex
+DOMAIN-SUFFIX,v2ex.com
+
+# ffq论坛
+DOMAIN-SUFFIX,ffqla.net
+
