@@ -1,8 +1,5 @@
 # 学术直连
 
-##六维空间
-DOMAIN-SUFFIX,bt.neu6.edu.cn
-
 ## 中科院情报中心
 DOMAIN-SUFFIX,fenqubiao.com
 
@@ -21,7 +18,6 @@ DOMAIN-SUFFIX,doi.org
 
 ## Med
 DOMAIN-SUFFIX,pubmed.ncbi.nlm.nih.gov
-
 DOMAIN-SUFFIX,jamanetwork.com
 DOMAIN-SUFFIX,redjournal.org
 DOMAIN-SUFFIX,thegreenjournal.com
@@ -62,13 +58,11 @@ DOMAIN-SUFFIX,springer.com
 DOMAIN-SUFFIX,link.springer.com
 DOMAIN-SUFFIX,bmccancer.biomedcentral.com
 
-
 ## JSTOR 旗下
 DOMAIN-SUFFIX,jstor.org
 
 ## SAGE
 DOMAIN-SUFFIX,journals.sagepub.com
-
 
 ## 其他学术网站
 DOMAIN-SUFFIX,aps.org
@@ -99,7 +93,6 @@ DOMAIN-SUFFIX,clarivate.com
 DOMAIN-SUFFIX,taylorfrancis.com
 DOMAIN-SUFFIX,onepetro.org
 DOMAIN-SUFFIX,siam.org
-
 
 # WOS
 DOMAIN-SUFFIX,webofknowledge.com
