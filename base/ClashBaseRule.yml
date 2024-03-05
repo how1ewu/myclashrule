@@ -11,6 +11,7 @@ mode: rule
 log-level: info
 unified-delay: true
 global-ua: clash.meta
+geodata-loader: standard
 sniffer:
   enable: true
   force-dns-mapping: true
