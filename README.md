@@ -51,13 +51,13 @@ https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2FXXX.XXX%2F&i
 本项目config为：
 
 ```http
-https%3A%2F%2Fraw.githubusercontent.com%2Fhow1ewu%2Fmyclashrule%2Fmain%2Fclash-rule.ini
+https%3A%2F%2Fraw.githubusercontent.com%2Futopeadia%2Fmyclashrule%2Fmain%2Fclash-rule.ini
 ```
 
 miniconfig(用于苹果移动设备，限制网络扩展内存占用)
 
 ```http
-https%3A%2F%2Fraw.githubusercontent.com%2Fhow1ewu%2Fmyclashrule%2Fmain%2Fclash-rule-mini.ini
+https%3A%2F%2Fraw.githubusercontent.com%2Futopeadia%2Fmyclashrule%2Fmain%2Fclash-rule-mini.ini
 ```
 
 8、将最终订阅链接添加到clash客户端即可使用。
