@@ -60,7 +60,7 @@ dns:
     - https://9.9.9.9/dns-query
     - https://1.1.1.1/dns-query
   fallback-filter:
-    geoip: true
+    geoip: false
     geoip-code: CN
     ipcidr:
       - 0.0.0.0/8
