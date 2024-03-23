@@ -1,6 +1,6 @@
 # clash-rule
 
-本项目自用clash规则
+自用clash meta规则
 
 规则源自：
 
