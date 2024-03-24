@@ -92,6 +92,8 @@ dns:
       - "+.x.com"
       - "+.v2ex.com"
       - "+.minecraft.net"
+      - "+.xn--ngstr-lra8j.com"
+      - "+.googleapis.cn"
 ntp:
   enable: true
   write-to-system: false
