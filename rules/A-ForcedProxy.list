@@ -9,4 +9,5 @@ DOMAIN-SUFFIX,v2ex.com
 
 # ffq论坛
 DOMAIN-SUFFIX,ffqla.net
-
+# DNS污染域名
+DOMAIN-SUFFIX,help.minecraft.net
