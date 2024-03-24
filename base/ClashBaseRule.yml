@@ -94,6 +94,7 @@ dns:
       - "+.minecraft.net"
       - "+.xn--ngstr-lra8j.com"
       - "+.googleapis.cn"
+      - "+.bing.com"
 ntp:
   enable: true
   write-to-system: false
