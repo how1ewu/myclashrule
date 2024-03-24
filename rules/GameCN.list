@@ -1,4 +1,8 @@
+#Xbox补充
 DOMAIN-SUFFIX,assets1.xboxlive.com
+DOMAIN-KEYWORD,xboxassets
+
+# Steam补充
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.10.124.0/24,no-resolve
 IP-CIDR,103.10.125.0/24,no-resolve
