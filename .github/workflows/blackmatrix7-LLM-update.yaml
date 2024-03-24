@@ -24,37 +24,23 @@ jobs:
       - name: Download LLM rules
         run: |
           curl -o rules/OpenAI.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list
-          echo "DOMAIN-SUFFIX,chatgpt.com" >> rules/OpenAI.list
           echo >> rules/OpenAI.list
           curl -o rules/Claude.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list
           echo >> rules/Claude.list
           curl -o rules/Copilot.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list
           echo "DOMAIN,designer.microsoft.com" >> rules/Copilot.list
           echo "DOMAIN,edge.microsoft.com" >> rules/Copilot.list
-          echo "DOMAIN-SUFFIX,edgeservices.bing.com" >> rules/Copilot.list
           echo "DOMAIN-SUFFIX,bing.com" >> rules/Copilot.list
           echo "DOMAIN-SUFFIX,events.data.microsoft.com" >> rules/Copilot.list
           echo >> rules/Copilot.list
-          curl -o rules/BardAI.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BardAI/BardAI.list
-          echo >> rules/BardAI.list
-          echo "# Gemini" >> rules/Gemini.list
-          echo "DOMAIN,ai.google.dev" >> rules/Gemini.list
-          echo "DOMAIN,makersuite.google.com" >> rules/Gemini.list
-          echo "DOMAIN,generativelanguage.googleapis.com" >> rules/Gemini.list
-          echo "DOMAIN,alkalimakersuite-pa.clients6.google.com" >> rules/Gemini.list
-          echo "DOMAIN-SUFFIX,bard.google.com" >> rules/Gemini.list
-          echo "DOMAIN-SUFFIX,deepmind.com" >> rules/Gemini.list
-          echo "DOMAIN-SUFFIX,deepmind.google" >> rules/Gemini.list
-          echo "DOMAIN-SUFFIX,generativeai.google" >> rules/Gemini.list
-          echo "DOMAIN-SUFFIX,gemini.google.com" >> rules/Gemini.list
-          echo "DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com" >> rules/Gemini.list
+          curl -o rules/Gemini.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list
           echo >> rules/Gemini.list
 
       - name: Save LLM rules to rules/LLMProxy.list
         run: |
-          cat rules/OpenAI.list rules/Claude.list rules/Copilot.list rules/BardAI.list rules/Gemini.list > rules/LLMProxy.list.new
+          cat rules/OpenAI.list rules/Claude.list rules/Copilot.list rules/Gemini.list > rules/LLMProxy.list.new
           mv -f rules/LLMProxy.list.new rules/LLMProxy.list
-          rm -f rules/OpenAI.list rules/Claude.list rules/Copilot.list rules/BardAI.list rules/Gemini.list
+          rm -f rules/OpenAI.list rules/Claude.list rules/Copilot.list rules/Gemini.list
 
       - name: Add changes to the repository
         run: |
